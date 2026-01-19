@@ -20,7 +20,7 @@ class _HomeScaffoldState extends State<HomeScaffold> {
   bool _checkingNetwork = true;
 
   static final List<Widget> _pages = <Widget>[
-    const PokemonSwipePage(),
+    PokemonSwipePage(key: UniqueKey()),
     const FavouritePokemonPage(),
     const SettingsPage(),
   ];
@@ -67,7 +67,11 @@ class _HomeScaffoldState extends State<HomeScaffold> {
       },
       child: IndexedStack(
         index: _selectedIndex,
-        children: _pages,
+        children: [
+          PokemonSwipePage(),
+          FavouritePokemonPage(key: UniqueKey()),
+          const SettingsPage(),
+        ],
       ),
     );
   }
