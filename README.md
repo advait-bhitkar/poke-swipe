@@ -59,13 +59,6 @@ A Flutter application for discovering and managing Pokémon, built with robust a
 - Add new features by creating a new folder in `features/` with its own data/domain/presentation structure.
 - All dependencies are injected via DI for easy mocking and testing.
 - Follows SOLID principles and Dart/Flutter best practices throughout.
-
-## Learn More
-- [Flutter Clean Architecture](https://medium.com/flutter-community/clean-architecture-with-flutter-2c6e0e144ad3)
-- [Bloc Pattern](https://bloclibrary.dev/#/)
-- [GoRouter](https://pub.dev/packages/go_router)
-- [Dio](https://pub.dev/packages/dio)
-
 ---
 
 This project is a showcase of scalable, maintainable, and production-grade Flutter engineering. Contributions and feedback are welcome!
