@@ -1,5 +1,4 @@
 import 'package:get_it/get_it.dart';
-import 'package:objectbox/objectbox.dart';
 import 'package:poke_swipe/features/poke_swipe/data/data_source/local_favourite_pokemon_data_source.dart';
 import 'package:poke_swipe/features/poke_swipe/data/data_source/poke_api_service.dart';
 import 'package:poke_swipe/features/poke_swipe/data/repository/poke_repository_impl.dart';

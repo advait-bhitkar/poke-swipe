@@ -1,5 +1,3 @@
-import 'package:objectbox/objectbox.dart';
-
 import 'color_info_entity.dart';
 import 'egg_group_entity.dart';
 import 'evolution_chain_entity.dart';
@@ -16,11 +14,7 @@ import 'species_entity.dart';
 import 'version_entity.dart';
 import 'description_entity.dart';
 
-@Entity()
 class PokemonEntity {
-  @Id()
-  int obxId = 0; // ObjectBox-managed id
-
   final int id;
   final String name;
   final int order;
