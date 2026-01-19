@@ -2,6 +2,8 @@
 
 A Flutter application for discovering and managing Pokémon, built with robust architecture and modern development practices.
 
+app apk link - https://www.dropbox.com/scl/fi/p8dc0osikrqt11n232wq1/app-debug.apk?rlkey=h1f1lismq5xjpquokdihl3lk9&st=cohb0xkw&dl=0
+
 ## Features
 - **Pokémon Swipe**: Browse and swipe through Pokémon cards with rich details.
 - **Favorites**: Mark and manage your favorite Pokémon locally.
