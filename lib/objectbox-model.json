@@ -1,0 +1,102 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:882620819492558884",
+      "lastPropertyId": "15:1771746736506056262",
+      "name": "PokemonEntity",
+      "properties": [
+        {
+          "id": "1:7323610505694334146",
+          "name": "obxId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5134061698894832913",
+          "name": "id",
+          "type": 6
+        },
+        {
+          "id": "3:621044545993410766",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:7584304364862622625",
+          "name": "order",
+          "type": 6
+        },
+        {
+          "id": "5:2677812531912785617",
+          "name": "genderRate",
+          "type": 6
+        },
+        {
+          "id": "6:8495594243461209014",
+          "name": "captureRate",
+          "type": 6
+        },
+        {
+          "id": "7:5870643281222625766",
+          "name": "baseHappiness",
+          "type": 6
+        },
+        {
+          "id": "8:3263310295778194601",
+          "name": "isBaby",
+          "type": 1
+        },
+        {
+          "id": "9:1420371931440371576",
+          "name": "isLegendary",
+          "type": 1
+        },
+        {
+          "id": "10:7386480324816139828",
+          "name": "isMythical",
+          "type": 1
+        },
+        {
+          "id": "11:5124807933465566987",
+          "name": "hatchCounter",
+          "type": 6
+        },
+        {
+          "id": "12:4021132001561268917",
+          "name": "hasGenderDifferences",
+          "type": 1
+        },
+        {
+          "id": "13:1691602564577827047",
+          "name": "formsSwitchable",
+          "type": 1
+        },
+        {
+          "id": "14:5433309677827787436",
+          "name": "isDefault",
+          "type": 1
+        },
+        {
+          "id": "15:1771746736506056262",
+          "name": "types",
+          "type": 30
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:882620819492558884",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
